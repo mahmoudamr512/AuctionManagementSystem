@@ -1,0 +1,17 @@
+D:\AuctionManagementSystem\AuctionManagementSystem\bin\Debug\AuctionManagementSystem.exe.config
+D:\AuctionManagementSystem\AuctionManagementSystem\bin\Debug\AuctionManagementSystem.exe
+D:\AuctionManagementSystem\AuctionManagementSystem\bin\Debug\AuctionManagementSystem.pdb
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.csproj.AssemblyReference.cache
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.csproj.SuggestedBindingRedirects.cache
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Properties.Resources.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.csproj.GenerateResource.cache
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.csproj.CoreCompileInputs.cache
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.exe
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.pdb
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Signup.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.SingupLoginHolder.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Login.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.SellerDashboard.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Profile.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Market.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.History.resources
