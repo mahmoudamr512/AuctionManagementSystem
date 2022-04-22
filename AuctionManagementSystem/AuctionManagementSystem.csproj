@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItem.Designer.cs">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyerDashboard.Designer.cs">
+      <DependentUpon>BuyerDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="History.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="History.Designer.cs">
       <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemsHistory.Designer.cs">
+      <DependentUpon>ItemsHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -90,8 +108,17 @@
     <Compile Include="Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddItem.resx">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyerDashboard.resx">
+      <DependentUpon>BuyerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="History.resx">
       <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemsHistory.resx">
+      <DependentUpon>ItemsHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

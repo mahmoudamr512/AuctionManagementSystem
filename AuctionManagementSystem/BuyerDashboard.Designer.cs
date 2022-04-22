@@ -93,13 +93,14 @@
             button3.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button3.Location = new System.Drawing.Point(-3, 564);
+            button3.Location = new System.Drawing.Point(-2, 578);
             button3.Name = "button3";
             button3.Size = new System.Drawing.Size(203, 61);
             button3.TabIndex = 1;
             button3.TabStop = false;
             button3.Text = "Exit";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // addItem
             // 
@@ -128,7 +129,7 @@
             this.panel1.Controls.Add(addItem);
             this.panel1.Location = new System.Drawing.Point(0, -5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(203, 625);
+            this.panel1.Size = new System.Drawing.Size(203, 639);
             this.panel1.TabIndex = 9;
             // 
             // panel2
@@ -177,7 +178,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label3.Location = new System.Drawing.Point(589, 7);
+            this.label3.Location = new System.Drawing.Point(612, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(263, 52);
             this.label3.TabIndex = 11;
@@ -189,7 +190,7 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
             this.panel3.Location = new System.Drawing.Point(205, 74);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1071, 546);
+            this.panel3.Size = new System.Drawing.Size(1089, 560);
             this.panel3.TabIndex = 10;
             // 
             // BuyerDashboard
@@ -197,13 +198,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(1276, 623);
+            this.ClientSize = new System.Drawing.Size(1299, 637);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BuyerDashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BuyerDashboard";
+            this.Load += new System.EventHandler(this.BuyerDashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

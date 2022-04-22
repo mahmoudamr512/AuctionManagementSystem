@@ -34,7 +34,7 @@ namespace AuctionManagementSystem
         private void button1_Click(object sender, EventArgs e)
         {
             parentForm.Hide();
-            SellerDashboard sd = new SellerDashboard();
+            BuyerDashboard sd = new BuyerDashboard();
             sd.ShowDialog();
             parentForm.Close();
         }

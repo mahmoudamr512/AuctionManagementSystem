@@ -43,7 +43,6 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -224,25 +223,12 @@
             this.textBox6.TabIndex = 21;
             this.textBox6.Text = "Enter your password:";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label9.Location = new System.Drawing.Point(469, 9);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 26);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "Profile";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1071, 550);
-            this.Controls.Add(this.label9);
             this.Controls.Add(button1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox5);
@@ -283,6 +269,5 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label9;
     }
 }

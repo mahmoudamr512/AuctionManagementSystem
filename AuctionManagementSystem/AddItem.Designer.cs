@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Button button1;
+            System.Windows.Forms.Button button2;
             this.label7 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -36,10 +37,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             button1 = new System.Windows.Forms.Button();
+            button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -136,18 +137,6 @@
             this.label3.TabIndex = 25;
             this.label3.Text = "Minimum Bidding";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label1.Location = new System.Drawing.Point(467, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 26);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Add Item";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
@@ -165,11 +154,29 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label4.Location = new System.Drawing.Point(28, 406);
+            this.label4.Location = new System.Drawing.Point(22, 382);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 26);
+            this.label4.Size = new System.Drawing.Size(118, 21);
             this.label4.TabIndex = 29;
             this.label4.Text = "File Upload:";
+            // 
+            // button2
+            // 
+            button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            button2.Location = new System.Drawing.Point(30, 416);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(110, 61);
+            button2.TabIndex = 30;
+            button2.TabStop = false;
+            button2.Text = "Upload Image";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // AddItem
             // 
@@ -177,9 +184,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1049, 507);
+            this.Controls.Add(button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(button1);
@@ -204,7 +211,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label4;
     }

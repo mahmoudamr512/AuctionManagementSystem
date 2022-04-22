@@ -15,3 +15,6 @@ D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSy
 D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Profile.resources
 D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.Market.resources
 D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.History.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.AddItem.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.BuyerDashboard.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.ItemsHistory.resources

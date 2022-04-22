@@ -14,6 +14,7 @@ namespace AuctionManagementSystem
     {
         Form activeForm;
         Profile userProfile;
+        ItemsHistory allItems;
         AddItem addItem;
         public BuyerDashboard()
         {
@@ -109,9 +110,25 @@ namespace AuctionManagementSystem
 
             allItems.TopLevel = false;
             allItems.AutoScroll = true;
-            this.panel3.Controls.Add(allItems);
+            this.panel3.Controls.Add(allItems); 
             allItems.Show();
             activeForm = allItems;
+        }
+
+        private void BuyerDashboard_Load(object sender, EventArgs e)
+        {
+            addItem = new AddItem();
+
+            addItem.TopLevel = false;
+            addItem.AutoScroll = true;
+            this.panel3.Controls.Add(addItem);
+            addItem.Show();
+            activeForm = addItem;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
