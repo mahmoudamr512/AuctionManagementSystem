@@ -27,22 +27,23 @@ namespace AuctionManagementSystem
             
             command.Parameters.Add("UserEmail", OracleDbType.Varchar2, 200,email, ParameterDirection.Input);
 
-            command.Parameters.Add("password", OracleDbType.Varchar2, 200);
-            command.Parameters.Add("type", OracleDbType.Varchar2, 200);
+            command.Parameters.Add("uPassword", OracleDbType.Varchar2, 255).Direction = ParameterDirection.Output;
+            command.Parameters.Add("uAccountType", OracleDbType.Varchar2, 255).Direction = ParameterDirection.Output;
+
             MessageBox.Show(email);
             try
             {
                 command.ExecuteNonQuery();
-                string pass = command.Parameters["password"].Value.ToString();
+                string pass = command.Parameters["uPassword"].Value.ToString();
 
-                if (pass != password)
+                if (pass.Trim() != password)
                 {
                     MessageBox.Show("Incorrect Password!");
                     return null;
                 }
                 else
                 {
-                    return command.Parameters["type"].Value.ToString();
+                    return command.Parameters["uAccountType"].Value.ToString();
                 }
 
             }
@@ -78,6 +79,8 @@ namespace AuctionManagementSystem
             {
                 
                 string type = loginCheck(textBox3.Text, textBox4.Text);
+
+                type = type.Trim();
 
                 if (type != null) { 
                     if (type == "Seller")
