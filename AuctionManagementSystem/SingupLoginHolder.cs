@@ -60,6 +60,7 @@ namespace AuctionManagementSystem
             signupForm.Close();
             signupForm.Dispose();
             loginForm = new Login();
+            loginForm.parentForm = this;
             loginForm.TopLevel = false;
             loginForm.AutoScroll = true;
             this.panel1.Controls.Add(loginForm);

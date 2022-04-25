@@ -39,7 +39,7 @@ namespace AuctionManagementSystem
             // 
             this.panel1.Location = new System.Drawing.Point(7, 122);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(663, 527);
+            this.panel1.Size = new System.Drawing.Size(730, 569);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -51,7 +51,7 @@ namespace AuctionManagementSystem
             this.button1.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(361, 39);
+            this.button1.Location = new System.Drawing.Point(400, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(220, 61);
             this.button1.TabIndex = 3;
@@ -69,7 +69,7 @@ namespace AuctionManagementSystem
             this.button2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(135, 39);
+            this.button2.Location = new System.Drawing.Point(174, 39);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(220, 61);
             this.button2.TabIndex = 4;
@@ -83,7 +83,7 @@ namespace AuctionManagementSystem
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(688, 661);
+            this.ClientSize = new System.Drawing.Size(740, 703);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);

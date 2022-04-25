@@ -55,6 +55,25 @@
             button1.TabStop = false;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            button2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            button2.Location = new System.Drawing.Point(24, 282);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(620, 61);
+            button2.TabIndex = 25;
+            button2.TabStop = false;
+            button2.Text = "Forgot your password?";
+            button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            button2.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
@@ -113,24 +132,6 @@
             this.label1.Text = "Login";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
-            // 
-            button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button2.Location = new System.Drawing.Point(24, 282);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(620, 61);
-            button2.TabIndex = 25;
-            button2.TabStop = false;
-            button2.Text = "Forgot your password?";
-            button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button2.UseVisualStyleBackColor = false;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -147,6 +148,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

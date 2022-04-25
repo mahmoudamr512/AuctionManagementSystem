@@ -18,3 +18,5 @@ D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSy
 D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.AddItem.resources
 D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.BuyerDashboard.resources
 D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.ItemsHistory.resources
+D:\AuctionManagementSystem\AuctionManagementSystem\bin\Debug\Oracle.DataAccess.dll
+D:\AuctionManagementSystem\AuctionManagementSystem\obj\Debug\AuctionManagementSystem.csproj.CopyComplete
